@@ -12,7 +12,7 @@ Additionally, you will need to install the following Python packages:
 You can install these packages using pip, the Python package installer. Open your terminal or command prompt and run the following commands:
 pip install pandas
 pip install scapy
-git clone [repository-url]
+git clone https://github.com/aidanmacklen/packet_sniffer.git
 cd [directory-name]
 sudo python packet_sniffer.py
 The program will start capturing packets and export the data to a CSV file named packet_data.csv every 5 minutes. Logs related to the program's operation will be stored in alerts.log.
