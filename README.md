@@ -1,10 +1,7 @@
 # Packet Sniffer
 This is a Python-based packet sniffer used to sniff TCP and UDP packets that are being transmitted across your network. It does a proper job, logging timestamps, source and destination IPs, ports, and protocols of the packets to a CSV file for additional analysis.
 # Features
--Capture both TCP and UDP packets.
--Export packet data to a CSV file every 5 minutes.
--Threaded design for continuous packet sniffing and data exporting.
--Simple and easy-to-use for both educational and practical purposes.
+Capture both TCP and UDP packets, Export packet data to a CSV file every 5 minutes, Threaded design for continuous packet sniffing and data exporting, Simple and easy-to-use for both educational and practical purposes.
 # Prerequisites
 Before we start with this packet sniffer, one should check if our system has Python installed or not. The program has a compatibility requirement from Python 3.x onward.
 
